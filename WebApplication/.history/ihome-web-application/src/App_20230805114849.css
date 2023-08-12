@@ -1,0 +1,222 @@
+/* .App {
+  text-align: center;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #003049;
+}
+
+body{
+  background-image: linear-gradient(rgba(122,67,29,0.100),rgba(222,158,72,0.85)), url(../public/img/Backgound_livingRoom.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 18px;
+}
+
+/* ====================================== */
+/* ========== Default Setting =========== */
+/* ====================================== */
+.spc-between{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+
+/* ====================================== */
+/* =============== HEADER =============== */
+/* ====================================== */
+
+header{
+  width: 100vw;
+  height: 70px;
+  background-color: #FA9F25;
+  
+}
+
+header .vertical-midle h3>span.title{
+  padding: 2px 6px;
+  color: white;
+  background-color: #003049;
+  border-top-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+header .nav{
+  margin: 5px 0 0 0 ;
+}
+
+header .vertical-midle {
+  display: flex;
+  padding: 20px 0 0 20px;
+}
+
+header .nav{
+  list-style-type: none;
+}
+
+header .nav li a{
+  margin: 20px 20px 20px 30px;
+  text-decoration: none;
+  color: #003049;
+  transition: all .25s ease-in;
+}
+
+header .nav li a:hover{
+  color: white;
+  transition: all .25s ease-in;
+}
+
+/* ====================================== */
+/* ================ HOME ================ */
+/* ====================================== */
+
+section .title{
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+section.part h4{
+  font-size: 35px;
+  font-style: italic;
+  margin-top: 30px;
+  border-bottom: 2px solid #003049;
+}
+
+.col{
+  margin-bottom: 10px;
+}
+
+.box{
+  width: 370px;
+  background-color: #FA9F25;
+  /* border: 2px solid #333; */
+  border-radius: 12px;
+}
+
+.title-device{
+  display: flex;
+  justify-content: center;
+  margin: 10px 20px 15px 20px;  
+}
+
+.title-device b{
+  width: fit-content;
+  text-align: center;  
+  border-bottom: 2px solid #003049;
+  font-size: 23px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.status{
+  margin: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img{
+  width: fit-content;
+  height: 100px;
+  margin: 5px;
+}
+
+label{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+/* ====================================== */
+/* =============== SENSOR =============== */
+/* ====================================== */
+
+/* .container-btn-create{
+  width: 300px;
+  border: #003049 1px;
+} */
+
+button.btn-create{
+  padding: 4px;
+  margin: 10px;
+}
+
+button.btn-create a{
+  padding: 4px;
+  margin: 10px;
+  text-decoration: none;
+  color: #003049;
+  transition: all .25s ease-in;
+}
+
+button.btn-create a i{
+  margin: 0 3px;
+}
+
+
+table{
+  width: 500px;
+}
+
+.width-title-table{
+  width: 200px;
+}
+
+table th,td{
+  text-align: center;
+}
+
+button{
+  padding: 2px 3px;
+  border-radius: 4px;
+  transition: all .25s ease-in;
+}
+
+button:hover{
+  transition: all .25s ease-in;
+  background-color: #017fc4;
+}
+
+/* ====================================== */
+/* ============= Create Room ============ */
+/* ====================================== */
+
+/* .create-table{
+  width: auto;
+  height: auto;
+  margin: 50px 0;
+  background-color: rgba(250, 159, 37, 0.5);
+  border-radius: 12px;
+  padding: 23px;
+}
+
+.create-table h4{
+  margin: 0 0 20px 0;
+}
+
+.create-table table th,td{
+  text-align: left;
+}
+
+input{
+  width: 300px;
+  margin: 4px 0;
+  padding: 3px 5px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.create-table button{
+  width: 300px;
+  border-radius: 6px;
+  border: none;
+  background-color: #f8930f;
+  padding: 3px 5px;
+  margin: 10px 0 0 0;
+} */
